@@ -1,0 +1,21 @@
+Несколько способов распечатать содержимое массива. Вот некоторые из них:
+
+* Использование цикла for:
+
+for (int i = 0; i < array.length; i++) {
+    System.out.print(array[i] + " ");
+}
+
+* Использование расширенного цикла for:
+
+for (int element : array) {
+    System.out.print(element + " ");
+}
+
+* Использование метода Arrays.toString():
+
+System.out.println(Arrays.toString(array));
+
+* Использование метода Arrays.deepToString() для многомерных массивов:
+
+System.out.println(Arrays.deepToString(array));
