@@ -171,7 +171,10 @@ public class StackQueueExercises {
             }
         }
 
+
+
 /**
+ *
  * Если все сделаете, то классика с собеседования:
  * <p>
  * <p>
@@ -197,4 +200,5 @@ public class StackQueueExercises {
  * stack1 = new Stack<>();
  * stack2 = new Stack<>();
  * }
+ *
  */
