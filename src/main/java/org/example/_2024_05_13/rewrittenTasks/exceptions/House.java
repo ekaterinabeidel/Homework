@@ -1,4 +1,4 @@
-package org.example._2024_05_07.skills;
+package org.example._2024_05_13.rewrittenTasks.exceptions;
 
 import lombok.ToString;
 
@@ -7,19 +7,19 @@ import java.util.List;
 @ToString
 public class House {
 
-    public List<Flat> flats;
-    public int entrance;
-    public boolean hasElevator;
+    List<Flat> flats;
+    int entrance;
+    boolean hasElevator;
 
 
 }
 
 
-public class Flat {
-    public List<Room> roomList;
-    public double square;
-    public int flatnumber;
-    public int floor;
+class Flat {
+    List<Room> roomList;
+    double square;
+    int flatnumber;
+    int floor;
 
     @Override
     public String toString() {
@@ -32,13 +32,13 @@ public class Flat {
     }
 }
 
-public class Room {
-    public double length;
-    public double width;
-    public double height;
-    public Doorway doorway;
-    public List<Box> boxes;
-    public Color color;
+class Room {
+    double length;
+    double width;
+    double height;
+    Doorway doorway;
+    List<Box> boxes;
+    Color color;
 
     @Override
     public String toString() {
@@ -53,9 +53,9 @@ public class Room {
     }
 }
 
-public class Doorway {
-    public double length;
-    public double height;
+class Doorway {
+    double length;
+    double height;
 
     @Override
     public String toString() {
@@ -67,17 +67,17 @@ public class Doorway {
 }
 
 @ToString
-public enum Color {
+enum Color {
     WHITE, BLACK, GREEN, YELLOW, RED, BLUE, PURPLE, BRAUN;
 }
 
 
-public class Box {
-    public double length;
-    public double width;
-    public double height;
-    public double weight;
-    public Color color;
+class Box {
+    double length;
+    double width;
+    double height;
+    double weight;
+    Color color;
 
     @Override
     public String toString() {
